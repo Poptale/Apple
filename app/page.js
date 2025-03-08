@@ -3,7 +3,7 @@ import { ScrollControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
 import Macbook from "./components/Macbook";
-import { Bloom, EffectComposer } from "@react-three/postprocessing";
+import { Bloom, EffectComposer, ToneMapping } from "@react-three/postprocessing";
 
 const page = () => {
   return (
@@ -35,5 +35,4 @@ const page = () => {
     </div>
   );
 };
-
 export default page;
